@@ -1,0 +1,215 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-software-training-software-development-background-picture-image_1078135.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;;
+
+}
+header{
+    width: 100%;
+    height:80px;
+    background-color:transparent;
+    
+}
+.nav-container{
+    border-radius: 6px;
+    background-color: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow:row;
+    padding:5px 0px 5px 5px;
+    margin:5px 5px 5px 5px;
+    justify-content: space-between;
+    width:99%;
+
+}
+.logo{
+    font-size:50px;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+span{
+    padding:0px 4px ;
+    border:1px solid white;
+    border-radius: 4px;
+    background-image: linear-gradient(to right top,rgb(105, 227, 49),yellow);
+}
+.logocolor{
+    background-image:linear-gradient( to top left,rgb(105, 227, 49),yellow);
+}
+.navbar{
+    width:570px;
+    height:25px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px;
+    margin:8px;
+}
+a{
+    font-size: 23px;
+    color:black;
+    text-decoration: none;
+    padding: 1px 1px;
+    margin:10px 19px;
+   
+}
+#portofolio{
+    
+    border-color: rgb(221, 35, 234);
+}
+#services{
+    border-color: rgb(143, 244, 11);
+}
+#contact{
+    margin-right: 25px;
+    border-color: rgb(218, 242, 2);
+}
+#home{
+    
+    border-color: rgb(49, 244, 192);
+    
+}
+a:hover{
+    color:rgb(0, 255, 13);
+    border-bottom: 2px solid rgb(49, 244, 192);
+}
+
+.info{
+    padding-top: 15px;
+}
+.main-container{
+    width: 99%;
+    height:600px;
+    margin:5px;
+    background-color: none;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    
+
+}
+.section{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    height:590px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding-left: 720px;
+    
+}
+#welcome{
+    background-color: none;
+    font-size:70px ;
+    display:inline;
+    margin-left:30px;
+}
+.text{
+    color:rgba(24, 45, 23);
+    font-size:40px;
+    font-style: oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hireus{
+    font-size: 30px;
+    background: none;
+    padding:8px 25px;
+    border-radius: 20px;
+
+}
+#section1{
+    border:2px solid grey;
+    background-image:url("https://blog.teamtreehouse.com/wp-content/uploads/2021/08/BlogBanner_templates_21stCenturySkills-720x480.png");
+    background-size: cover;
+    background-position:center ;
+    width:98%;
+    height:500px;
+    margin-top:50px;
+}
+
+h2{
+    font-size: 40px;
+    color:rgb(23, 38, 202);
+    padding:5px 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+#services-section{
+   width:95vw;
+   height:450px;
+   border:2px solid grey;
+   border-radius: 20px;
+
+    
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 10px;
+    
+
+}
+.flexitems{
+    width:21%;
+    height:350px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    border:2px solid whitesmoke;
+    border-radius: 9px;
+}
+img{
+    width:100%;
+    height:150px;
+    border-radius: 8px;  
+}
+.card{
+    font-size: 20px;
+    height:200px;
+    text-align: center;
+}
+
+footer{
+    width:100%;
+    height:250px;
+    color:rgb(8, 8, 8);
+    background-color:none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+address{
+    padding-top:30px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.copyright{
+    width:100%;
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    color:antiquewhite;
+    background-color: black;
+    
+}
+
