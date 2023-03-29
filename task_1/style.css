@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+.nike-container{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(186, 98, 167);
+}
+
+header{
+    box-sizing: border-box;
+    display:flex;
+    background-color: #dfdede;
+    height:60px;
+    align-items: center;
+    padding:20px 0px;
+    
+}
+.logo{
+    padding:5px 10px;
+    margin:0px 5px;
+    display:flex;
+    flex-basis:500px ;
+    
+}
+.logo > img{
+    height:30px;
+    width:70px;
+}
+.navbar{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+a:hover{
+    border-bottom:2px solid black;
+
+}
+.nav-items{
+    padding:5px 0px;
+    margin:0px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    margin:20px;
+}
+.main > div{
+    flex-basis:50%;
+    
+}
+.main1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color:#dfdede;
+    margin:0px;
+    box-sizing: border-box;
+    border-radius: 20px 0px 0px 20px;
+
+}
+h2{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+p{
+    font-size:20px;
+}
+.main2{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgb(69, 125, 62);
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 0px 20px 20px 0px
+
+}
+.card-container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin:15px;
+    
+    
+}
+span{
+    margin:0px 0px 0px 20px;
+    font-size: 30px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px;
+}
+.img-quote{
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+  font-size: 15px;
+  padding:8px 12px;
+  margin:2px 8px;
+  background-color: black;
+  color:white;
+  border-radius: 15px;
+}
+.cards{
+    height:160px;
+    width:120px;
+    border-radius: 20px;
+}
+.shoesimg{
+    width:97%;
+    height:600px;
+    margin:20px;
+}
+.subtitle{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:5px 10px 0px 25px;
+}
+.popularshoe{
+    display: flex;
+    justify-content: center;
+    margin:0px 20px;
+    padding:10px 10px 0px 0px;
+    border-top:2px solid black;
+    
+}
+.shoecard{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.shoecard img{
+    height: 250px;
+    width:80%;
+    flex-grow: 1;
+}
+.footer{
+    display:flex;
+    background-color:black;
+}
+.section1{
+    padding:10px;
+    margin:10px;
+    width:200px;
+}
+.section2{
+    margin-left:500px;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+.items{
+    padding:10px;
+    color:white;
+}
+footer{
+    background-color: rgb(37, 35, 35);
+    color:white;
+    height:40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top:5px;
+}
+i{
+    color:white;
+    padding:5px 10px;
+}

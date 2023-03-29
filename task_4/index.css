@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(27, 60, 32);
+}
+.navbar{
+    background-color: rgb(21, 49, 34);
+    padding:0px 0px;
+}
+.container-fluid{
+    background-color: rgb(166, 255, 0);
+    padding:2px 5px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-nav{
+    margin:auto;
+}
+.nav-item{
+    padding:0px 10px;
+    margin:0px 10px;
+}
+
+.about_me{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(14, 30, 14) ;
+    width:100%;
+    color:aliceblue;
+    padding:10px 20px;
+}
+.about_me > p{
+    display:flex;
+    align-items: center;
+}
+.space{
+    width:50%;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.section{
+    width:100vw;
+    background-color: rgb(78, 214, 180);
+}
+.section1{
+    font-size: 30px;
+    background-color: rgb(10, 63, 63);
+}
+.profile{
+    border-radius: 10px;
+    width:180px;
+}
+.techskills{
+    color:rgb(85, 64, 35);
+    background-color: aliceblue;
+    
+}
+.techskills > h3{
+    margin:5px 20px;
+}
+.skills{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:space-between;
+    
+    background-color: aliceblue;
+}
+.s-image{
+    width:120px;
+    height: 150px;
+    margin:10px;
+    border-radius: 10px;
+
+}
+.education-section{
+    margin:5px 20px;
+    color:whitesmoke;
+}
+.education{
+    margin:10px 0px;
+}
+.institute{
+    color:rgb(39, 97, 213);
+    font-size: 25px;
+}
+h3{
+    text-decoration:underline ;
+    color:rgb(47, 163, 18);
+}
+.projects{
+    padding:15px;
+    width:100%;
+    background-color: rgb(190, 121, 30);
+}
+.projects > div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:15px;
+    font-size: 20px;
+}
+.contact{
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info > div{
+    margin:0px 20px;
+    color:aliceblue;
+    font-size: 20px;
+}
+.info-image{
+    width:100px;
+    height:100px;
+    border-radius:5px;
+
+}
+.web-link{
+    color:white;
+    margin:5px 300px;
+}
+i{
+    padding:5px 10px;
+}
+
